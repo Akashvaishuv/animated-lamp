@@ -37,10 +37,10 @@ Properly setup the environment variables or populate `config.py` with the values
 * `API_ID`(required) - Get your telegram API_ID from [https://my.telegram.org/](https://my.telegram.org/).
 * `API_HASH`(required) - Get your telegram API_HASH from [https://my.telegram.org/](https://my.telegram.org/).
 * `BOT_TOKEN`(required) - Obtain your bot token from [Bot Father](https://t.me/BotFather "Bot Father").
-* `LOG_CHANNEL`(required) - Log channel's id.
-* `DATABASE_URL`(required) - Mongodb database URI.
+* `LOG_CHANNEL`(optional) - Log channel's id.
+* `DATABASE_URL`(optional) - Mongodb database URI.
 * `AUTH_USERS`(required) - Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified.
-* `HOST`(required) - Public URL of file streaming service ([Source](https://github.com/tulir/tgfilestream "TgFileStream")).
+* `HOST`(optional) - Public URL of file streaming service ([Source](https://github.com/tulir/tgfilestream "TgFileStream")).
 * `SESSION_NAME`(optional) - Name you want to call your bot's session, Eg: bot's username.
 * `MAX_PROCESSES_PER_USER`(optional) - Number of parallel processes each user can have, defaults to 2.
 * `MAX_TRIM_DURATION`(optional) - Maximum allowed video trim duration in seconds. Defaults to 600s.
@@ -82,9 +82,9 @@ Now go to your bot and do a `/start`.
 ### Settings
 In bot settings.
 * `Upload Mode` - Screenshot upload mode. Either `as image file` or `as document file`. Defaults to `as image file`.
-* `Watermark` - Watermark text to be embedded to screenshots. Texts upto 30 characters supported. Disabled by default.
+* `Watermark` - Watermark text to be embedded to screenshots. Texts upto 100 characters supported. Disabled by default.
 * `Watermark Color` - Font color to be used for watermark. Any of `white`, `black`, `red`, `blue`, `green`, `yellow`, `orange`, `purple`, `brown`, `gold`, `silver`, `pink`. Defaults to `white`.
-* `Watermark Font Size` - Font size to be used for watermarks. Any of `small(30)`, `medium(40)`, `large(50)`. Defaults to `medium`.
+* `Watermark Font Size` - Font size to be used for watermarks. Any of `small(30)`, `medium(80)`, `large(200)`. Defaults to `medium`.
 * `Sample Video Duration` - Sample video's duration. Any of `30s`, `60s`, `90s`, `120s`, `150s`. Defaults to `30s`.
 * `Screenshot Genetation Mode` - Either `random` or `equally spaced`. Defaults to `equally spaced`.
 
@@ -93,7 +93,7 @@ In bot settings.
 Contributions are welcome.
 
 ## Contact
-You can contact me [@odysseusmax](https://tx.me/odysseusmax).
+You can contact me [@AVmoviesadmin](https://t.me/AVmoviesadmin).
 
 ## Thanks
 Thanks to [Dan](https://github.com/delivrance "Dan") for his [Pyrogram](https://github.com/pyrogram/pyrogram "Pyrogram") library.
