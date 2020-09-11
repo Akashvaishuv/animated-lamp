@@ -37,7 +37,7 @@ Properly setup the environment variables or populate `config.py` with the values
 * `API_ID`(required) - Get your telegram API_ID from [https://my.telegram.org/](https://my.telegram.org/).
 * `API_HASH`(required) - Get your telegram API_HASH from [https://my.telegram.org/](https://my.telegram.org/).
 * `BOT_TOKEN`(required) - Obtain your bot token from [Bot Father](https://t.me/BotFather "Bot Father").
-* `LOG_CHANNEL`(optional) - Log channel's id.
+* `LOG_CHANNEL`(required) - Log channel's id.
 * `DATABASE_URL`(optional) - Mongodb database URI.
 * `AUTH_USERS`(required) - Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified.
 * `HOST`(optional) - Public URL of file streaming service ([Source](https://github.com/tulir/tgfilestream "TgFileStream")).
